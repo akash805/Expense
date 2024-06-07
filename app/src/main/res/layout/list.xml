@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="332dp"
+        android:layout_height="116dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="332dp"
+            android:layout_height="116dp"
+            android:background="@drawable/edit_text">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="9dp"
+                android:text="Umme Abiha"
+                android:textColor="#1242D2"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="297dp"
+                android:layout_marginTop="10dp"
+                android:background="null"
+                android:src="@drawable/edit" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="36dp"
+                android:background="#E4DDDD"/>
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="46.2dp"
+                android:layout_marginStart="130.18dp"
+                android:src="@drawable/vector"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="147dp"
+                android:layout_marginTop="43sp"
+                android:text="Fare Rate 1"
+                android:textColor="#1242D2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="147dp"
+                android:layout_marginTop="56sp"
+                android:text="11.5"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="47dp"
+                android:layout_marginStart="240dp"
+                android:src="@drawable/sheet"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="255dp"
+                android:layout_marginTop="46sp"
+                android:text="Fare Rate 1"
+                android:textColor="#1242D2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="267dp"
+                android:layout_marginTop="60sp"
+                android:text="10km"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="82sp"
+                android:text="Total"
+                android:textStyle="bold"
+                android:textColor="#1242D2"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="95sp"
+                android:text="Rs.113.3"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="83.2dp"
+                android:layout_marginStart="130.18dp"
+                android:src="@drawable/vector"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="147dp"
+                android:layout_marginTop="80sp"
+                android:text="Fare Rate 2"
+                android:textColor="#1242D2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="147dp"
+                android:layout_marginTop="93sp"
+                android:text="11.5"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="83dp"
+                android:layout_marginStart="240dp"
+                android:src="@drawable/sheet"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="255dp"
+                android:layout_marginTop="82sp"
+                android:text="Fare Rate 1"
+                android:textColor="#1242D2"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="267dp"
+                android:layout_marginTop="96sp"
+                android:text="10km"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

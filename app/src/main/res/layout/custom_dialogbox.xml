@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="226dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:background="@drawable/edit_text"
+            android:layout_marginStart="23dp"
+            android:layout_marginEnd="23dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Expense"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#1242D2"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/close"
+                android:background="null"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="20.5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="12sp"
+                android:textColor="#B5B5B8"
+                android:layout_marginTop="55sp"
+                android:layout_marginStart="27dp"/>
+
+            <EditText
+                android:layout_width="272dp"
+                android:layout_height="30dp"
+                android:text="Abiha Umme"
+                android:background="@drawable/edit_text"
+                android:textSize="12sp"
+                android:layout_marginTop="72dp"
+                android:paddingStart="6.95dp"
+                android:paddingEnd="12.5dp"
+                android:layout_marginStart="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Km/Charge"
+                android:textSize="12sp"
+                android:textColor="#B5B5B8"
+                android:layout_marginTop="123sp"
+                android:layout_marginStart="27dp"/>
+
+            <EditText
+                android:layout_width="272dp"
+                android:layout_height="30dp"
+                android:text="Rs.11.5"
+                android:background="@drawable/edit_text"
+                android:textSize="12sp"
+                android:layout_marginTop="140dp"
+                android:paddingStart="6.95dp"
+                android:paddingEnd="12.5dp"
+                android:layout_marginStart="24dp"/>
+
+
+            <Button
+                android:layout_width="97.26dp"
+                android:layout_height="26dp"
+                android:text="Submit"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:background="@drawable/background_button"
+                android:layout_marginTop="205dp"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
