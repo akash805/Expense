@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:background="@drawable/edit_text"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="23dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="9dp"
+                android:text="Set Monthly Target"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingEnd="9dp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/close"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="12dp"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="40dp"
+            android:background="#E4DDDD"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#575555"
+                android:text="Employee Name"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_text_gray"
+                android:paddingStart="6.95dp"
+                android:paddingEnd="12.5dp"
+                android:layout_marginTop="5dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#575555"
+                android:text="Start Date"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="108dp"
+                android:textSize="12sp"
+                android:textColor="#575555"
+                android:text="End Date"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:hint="dd-mm-yyyy --:--"
+                android:background="@drawable/edit_text"
+                android:textSize="12sp"
+                android:paddingStart="6.95dp"
+                android:paddingEnd="12.5dp"
+                android:drawableEnd="@drawable/date" />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:hint="dd-mm-yyyy --:--"
+                android:background="@drawable/edit_text"
+                android:textSize="12sp"
+                android:paddingStart="6.95dp"
+                android:paddingEnd="12.5dp"
+                android:drawableEnd="@drawable/date"
+                android:layout_marginStart="14dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="190dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lead Target"
+                android:textColor="#575555"
+                android:textSize="12sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_text"
+                android:paddingStart="6.95dp"
+                android:paddingEnd="12.5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Revenue Target (In Lacks)"
+                android:textColor="#575555"
+                android:layout_marginTop="5dp"
+                android:textSize="12sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_text"
+                android:paddingStart="6.95dp"
+                android:paddingEnd="12.5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Win Target"
+                android:textColor="#575555"
+                android:layout_marginTop="5dp"
+                android:textSize="12sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_text"
+                android:paddingStart="6.95dp"
+                android:paddingEnd="12.5dp"
+                android:layout_marginTop="5dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#E4DDDD"/>
+
+            <Button
+                android:layout_width="97.26dp"
+                android:layout_height="32dp"
+                android:text="Save Target"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:background="@drawable/background_button"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
